@@ -2,6 +2,9 @@
 
 This project is a simple way to connect an N64 controller to an ESP32 and read the analog stick values. The N64 controller uses a 3.3V supply voltage, so it can be connected directly to the ESP32.
 
+## Software
+I used platformio to build and upload the code to the ESP32. You can use the Arduino IDE if you prefer. This project contains the platformio.ini for my setup.
+
 ## Hardware
 - Any ESP32 board that has enough GPIO pins and can output 3.3V. I used an ESP32-3C.
 - An Analog Stick from an N64 controller. I used an old semi broken stick i had laying around.
